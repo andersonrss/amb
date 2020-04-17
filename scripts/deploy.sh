@@ -28,7 +28,7 @@ echo "${instance_name}:${PASSWORD}" | chpasswd
 echo "[OK]"
 
 echo "Phase 4: Downloading Freyja from Bitbucket"
-sudo -u ${instance_name} git clone https://nailsoncunha@github.com/nailsoncunha/danda_mestre.git /home/${instance_name}/freyja
+sudo -u ${instance_name} git clone https://github.com/andersonrss/danda_mestre.git /home/${instance_name}/freyja
 echo "[OK]"
 
 echo "Phase 5: Preparing the VirtualEnv"
