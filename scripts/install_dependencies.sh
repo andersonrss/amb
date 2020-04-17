@@ -13,6 +13,7 @@ apt-get install supervisor \
 		nginx \
 		libpq-dev \
 		python-dev \
+		virtualenv \
 		python3-venv \
 		git \
 		sudo \
